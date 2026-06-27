@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "The \"Podcast\" ECoG dataset",
+  "description": "The Podcast ECoG dataset provides intracranial electrophysiological recordings from 9 participants with 1,330 electrodes during natural story listening. This dataset combines high spatiotemporal resolution human electrocorticography with a naturalistic language comprehension paradigm, including raw and preprocessed high-gamma data, auditory stimuli, word-level transcripts, and linguistic features from acoustic properties to large language model embeddings. The resource includes tutorials and serves as both a pedagogical tool and foundation for investigating neural mechanisms of narrative comprehension.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,61 +23,6 @@
     "Adeen Flinker": {},
     "Uri Hasson": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds005574.v1.0.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on005574",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/on005574",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "National Institutes of Health",
-      "award_number": "DP1HD091948"
-    },
-    {
-      "funder_name": "National Institutes of Health",
-      "award_number": "R01NS109367"
-    }
-  ],
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "anat",
-    "ieeg"
-  ],
-  "resource_type_specific": "Structural MRI Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".csv",
-    ".edf",
-    ".fif",
-    ".gz",
-    ".hdf5",
-    ".html",
-    ".ipynb",
-    ".json",
-    ".log",
-    ".md",
-    ".py",
-    ".pyc",
-    ".sh",
-    ".tsv",
-    ".wav",
-    ".yml"
-  ],
-  "description": "The Podcast ECoG dataset provides intracranial electrophysiological recordings from 9 participants with 1,330 electrodes during natural story listening. This dataset combines high-resolution human electrocorticography with a naturalistic narrative comprehension paradigm, including preprocessed high-gamma spectral data, auditory stimuli, word-level transcripts, and linguistic features from acoustic properties to large language model embeddings. The resource enables investigation of neural mechanisms underlying language comprehension during natural listening.",
   "keywords": [
     {
       "term": "Electrocorticography",
@@ -96,26 +42,66 @@
       "term": "intracranial recording"
     },
     {
-      "term": "neural activity"
+      "term": "neural encoding"
     },
     {
-      "term": "high-gamma oscillations"
-    },
-    {
-      "term": "grid electrodes"
-    },
-    {
-      "term": "depth electrodes"
-    },
-    {
-      "term": "strip electrodes"
-    },
-    {
-      "term": "large language model embeddings"
-    },
-    {
-      "term": "acoustic features"
+      "term": "natural listening"
     }
   ],
-  "source_hash": "acae21963abed8d53d3eae6e5b17ce8c2f5710f964942f6266868b0ae31709ff"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/on005574",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005574",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005574.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Institutes of Health",
+      "award_number": "DP1HD091948"
+    },
+    {
+      "funder_name": "National Institutes of Health",
+      "award_number": "R01NS109367"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "Structural MRI Dataset",
+  "modalities": [
+    "anat",
+    "ieeg"
+  ],
+  "sizes": [
+    "15.5 GB (90 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".edf",
+    ".fif",
+    ".gz",
+    ".hdf5",
+    ".html",
+    ".ipynb",
+    ".json",
+    ".log",
+    ".md",
+    ".py",
+    ".pyc",
+    ".sh",
+    ".tsv",
+    ".wav",
+    ".yml"
+  ],
+  "methods_description": "Electrocorticographic (ECoG) recordings were obtained from 9 participants using grid, depth, and strip electrodes during passive listening to a 30-minute naturalistic story containing over 5,000 words. Raw data are provided alongside minimally preprocessed high-gamma spectral band data. Aligned word-level transcripts and linguistic features ranging from low-level acoustic properties to large language model embeddings are included.",
+  "source_hash": "0f264c3cddd5337478d4df569f0d6fed5dbe186f15dd6e382cecba4d75275ba8"
 }
