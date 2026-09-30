@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "The \"Podcast\" ECoG dataset",
-  "description": "This dataset comprises intracranial electrocorticography (ECoG) recordings from 9 epilepsy patients implanted with grid, depth, and strip electrodes (1,330 electrodes total), collected while participants listened to a 30-minute naturalistic story containing over 5,000 words. It provides raw and minimally preprocessed (high-gamma band) neural data along with aligned auditory stimuli, word-level transcripts, and linguistic features spanning low-level acoustics to large language model embeddings. The dataset is intended to support research on natural language comprehension using high-fidelity invasive recordings and includes tutorials replicating prior findings.",
-  "methods_description": "ECoG data were recorded from 9 participants implanted with grid, depth, and strip electrodes while they listened to a 30-minute naturalistic story. A minimally preprocessed version in the high-gamma spectral band is provided alongside raw data, along with aligned auditory stimuli, word-level transcripts, and linguistic features including acoustic properties and LLM-derived embeddings.",
+  "description": "The \"Podcast\" electrocorticography (ECoG) dataset captures intracranial neural activity from 9 participants (1,330 grid, depth, and strip electrodes) who listened to a 30-minute naturalistic story containing over 5,000 words. It includes raw recordings, a minimally preprocessed high-gamma version, the auditory stimuli, an aligned word-level transcript, and linguistic features ranging from acoustic properties to large language model embeddings. Tutorials replicating prior findings are provided to support research on natural language comprehension.",
+  "methods_description": "Intracranial ECoG (grid, depth, and strip electrodes) was recorded from 9 participants listening to a 30-minute naturalistic spoken story. A minimally preprocessed high-gamma band version, an aligned word-level transcript, and acoustic and LLM-embedding linguistic features are provided.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -26,34 +26,27 @@
   },
   "keywords": [
     {
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+    },
+    {
       "term": "ECoG"
     },
     {
-      "term": "electrocorticography"
+      "term": "intracranial EEG"
     },
     {
-      "term": "language comprehension"
+      "term": "natural language comprehension"
     },
     {
-      "term": "naturalistic stimuli"
+      "term": "naturalistic story listening"
     },
     {
-      "term": "intracranial electrophysiology"
+      "term": "large language model embeddings"
     },
     {
-      "term": "high-gamma activity"
-    },
-    {
-      "term": "large language models"
-    },
-    {
-      "term": "natural language processing"
-    },
-    {
-      "term": "narrative comprehension"
-    },
-    {
-      "term": "story listening"
+      "term": "high-gamma"
     }
   ],
   "related_identifiers": [
@@ -90,7 +83,7 @@
     "ieeg"
   ],
   "sizes": [
-    "15.5 GB (90 files)"
+    "14.44 GB (90 files)"
   ],
   "formats": [
     ".csv",
