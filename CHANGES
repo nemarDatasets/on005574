@@ -1,3 +1,7 @@
+1.0.3 2026-10-22
+  - channels.tsv of 3 recordings = the data-file header channel list (name, order, count; matched by name): 0 rows renamed to the header name, 0 rows added, 3 rows removed (kept in sourcedata/channels-removed-2026-10-18/), 0 files reordered. Before, mne_bids could not apply channels.tsv to these files (count or name mismatch).
+  - README: section 'Channel names follow the data headers'.
+
 1.0.2 2025-02-17
   - Remove old README.md
 1.0.1 2025-02-17
