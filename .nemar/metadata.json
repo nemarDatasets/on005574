@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The \"Podcast\" ECoG dataset",
-  "description": "The \"Podcast\" electrocorticography (ECoG) dataset captures intracranial neural activity from 9 participants (1,330 grid, depth, and strip electrodes) who listened to a 30-minute naturalistic story containing over 5,000 words. It includes raw recordings, a minimally preprocessed high-gamma version, the auditory stimuli, an aligned word-level transcript, and linguistic features ranging from acoustic properties to large language model embeddings. Tutorials replicating prior findings are provided to support research on natural language comprehension.",
-  "methods_description": "Intracranial ECoG (grid, depth, and strip electrodes) was recorded from 9 participants listening to a 30-minute naturalistic spoken story. A minimally preprocessed high-gamma band version, an aligned word-level transcript, and acoustic and LLM-embedding linguistic features are provided.",
+  "description": "The \"Podcast\" ECoG dataset contains intracranial electrocorticography recordings from 9 participants (1,330 grid, depth, and strip electrodes) who listened to a 30-minute naturalistic story containing over 5,000 words. It provides raw data, a minimally preprocessed high-gamma version, the auditory stimulus, an aligned word-level transcript, and linguistic features ranging from acoustic properties to large language model embeddings. Tutorials replicating earlier findings are included to support research on natural language comprehension.",
+  "methods_description": "Participants undergoing intracranial monitoring listened to a 30-minute spoken story while ECoG was recorded from grid, depth, and strip electrodes. A minimally preprocessed high-gamma band version is provided, along with word-level transcripts aligned to the audio and linguistic features including LLM embeddings.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -103,5 +103,5 @@
     ".wav",
     ".yml"
   ],
-  "source_hash": "0f264c3cddd5337478d4df569f0d6fed5dbe186f15dd6e382cecba4d75275ba8"
+  "source_hash": "54196f82014725f6421927854c800c615da4f68acff785fcab69825b24d7ece9"
 }
