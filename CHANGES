@@ -1,3 +1,7 @@
+1.0.4 2026-11-11
+  - README, section 'Channel names follow the data headers': the statement on channels.tsv now covers only the 3 recordings
+    the 1.0.3 update changed (sub-02, sub-03, sub-04); it said 'every channels.tsv'. No table or data file changed.
+
 1.0.3 2026-10-22
   - channels.tsv of 3 recordings = the data-file header channel list (name, order, count; matched by name): 0 rows renamed to the header name, 0 rows added, 3 rows removed (kept in sourcedata/channels-removed-2026-10-18/), 0 files reordered. Before, mne_bids could not apply channels.tsv to these files (count or name mismatch).
   - README: section 'Channel names follow the data headers'.
